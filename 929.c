@@ -2,9 +2,9 @@
 void swap(int *x, int *y)
 {
    int temp;
-   temp = x; /* 保存 x 的值 */
-   x = y;    /* 把 y 赋值给 x */
-   y = temp; /* 把 temp 赋值给 y */
+   temp = x; 
+   x = y;    
+   y = temp; 
   printf("交换中，a 的值： %d\n", &x );
    printf("交换中，b 的值： %d\n", &y );
    return;
@@ -25,4 +25,4 @@ int main ()
  
    return 0;
 }
-/* 函数定义 */
+
